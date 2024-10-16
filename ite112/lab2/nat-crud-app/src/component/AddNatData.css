@@ -1,0 +1,104 @@
+.add-nat-data {
+    width: 80%;
+    margin-left: -120px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .he{
+    margin-top: -5px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e7fff8;
+    border-radius: 10px;
+    background-color: #eeeded;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-size: 19px;
+    color: #555;
+    text-align: left;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the input fields to the right */
+    width: 100%; /* Make the container take full width */
+}
+
+.inputs {
+    margin-top: -35px;
+    padding: 9px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    width: 50%; /* You can adjust this value as needed */
+}
+
+  
+  .inputs:focus {
+    border-color: #60ffd2;
+  }
+  
+  .rawr {
+    padding: 10px 20px; /* More padding for a bigger button */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #0707a4; /* Green background */
+    color: white; /* White text */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.rawr:hover {
+    background-color: #3fa5db; /* Darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.rawr:active {
+    background-color: #07006e; /* Even darker green when pressed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow on click */
+}
+
+.rawr:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px #0c00bb; /* Green focus ring */
+}
+
+.nooo {
+  padding: 10px 20px; /* More padding for a bigger button */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #970808; /* Green background */
+  color: white; /* White text */
+  font-size: 16px; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nooo:hover {
+  background-color: #e57164; /* Darker green on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.nooo:active {
+  background-color: #6f0000; /* Even darker green when pressed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow on click */
+}
+
+.nooo:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px #6f0000; /* Green focus ring */
+}
